@@ -5,15 +5,16 @@ body {
 }
 
 header {
-  height: 30vh;
+  height: 20vh;
   background-color: #5700B5;
   color: white;
 }
 
 h1 {
+  /*clear: both;*/
   font-size: 2.5rem;
   text-align: center;
-  padding: 6vh 0 3vh 0;
+  padding: 0 0 3vh 0;
 }
 
 h2 {
@@ -23,33 +24,51 @@ h2 {
 
 nav {
   height: 10vh;
-  background-color: green;
+  background-color: #5700B5;
   color: white;
+  position: fixed;
+  z-index: 999;
 }
 
 .navigation {
-  height: 3vh;
+  /*height: 3vh;*/
   display: inline-block;
   padding-left: 3vw;
-  /*padding-top: 4vh;*/
+  padding-top: 3.5vh;
 }
 
 nav a {
+  height: 3vh;
   color: #FFF;
   text-decoration: none;
   padding: 2vw;
 }
 
+.social a {
+
+}
+
 .social img {
-  height: 5vw;
-  margin-bottom: 2.5vw;
+  height: 4vw;
+  margin-top: -5vh;
   padding-right: 4vw;
   float: right;
   display: inline-block;
 }
 
-.text {
-  padding: 5vh 5vw;
+.content {
+  padding: 7vh 5vw;
   font-weight: lighter;
   line-height: 1.5;
+}
+
+footer {
+  clear: both;
+  height: 10vh;
+  text-align: center;
+}
+
+footer p {
+  font-size: .75rem;
+  font-weight: lighter;
 }
