@@ -1,0 +1,33 @@
+body {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Libre Baskerville', serif;
+}
+
+header {
+  height: 15vw;
+  background-color: #5700B5;
+  color: white;
+}
+
+#name {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3vmin auto 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #FFF;
+  padding: 1.25vw;
+}
+
+.social img {
+  height: 4.5vw;
+  padding: 1.25vw;
+  float: right;
+  display: inline-block;
+}
