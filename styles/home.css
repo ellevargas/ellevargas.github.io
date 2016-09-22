@@ -5,29 +5,44 @@ body {
 }
 
 header {
-  height: 15vw;
+  height: 30vh;
+  margin: 25vh 0 45vh;
   background-color: #5700B5;
   color: white;
 }
 
-#name {
-  font-size: 3rem;
+
+/*below saved for other html pages*/
+/*header {
+  height: 30vh;
+  background-color: #5700B5;
+  color: white;
+}*/
+
+h1 {
+  font-size: 5rem;
   text-align: center;
-  margin: 3vmin auto 0;
+  padding: 6vh 0 2vh 0;
 }
 
-nav li {
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.pages li {
   display: inline-block;
 }
 
 nav a {
   color: #FFF;
-  padding: 1.25vw;
+  /*display: inline-block;*/
+  /*padding: 1.25vw;*/
 }
 
 .social img {
   height: 4.5vw;
-  padding: 1.25vw;
+  padding: 0vw 3.5vw 0;
   float: right;
   display: inline-block;
 }

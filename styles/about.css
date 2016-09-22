@@ -1,0 +1,55 @@
+body {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Libre Baskerville', serif;
+}
+
+header {
+  height: 30vh;
+  background-color: #5700B5;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 6vh 0 3vh 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+nav {
+  height: 10vh;
+  background-color: green;
+  color: white;
+}
+
+.navigation {
+  height: 3vh;
+  display: inline-block;
+  padding-left: 3vw;
+  /*padding-top: 4vh;*/
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 2vw;
+}
+
+.social img {
+  height: 5vw;
+  margin-bottom: 2.5vw;
+  padding-right: 4vw;
+  float: right;
+  display: inline-block;
+}
+
+.text {
+  padding: 5vh 5vw;
+  font-weight: lighter;
+  line-height: 1.5;
+}
