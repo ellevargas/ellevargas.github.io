@@ -7,40 +7,49 @@ body {
 header {
   display: inline-block;
   width: 100vw;
-  height: 30vw;
-  margin: 10vw 0;
+  height: 20vw;
+  margin: 10vw 0 0 0;
+  background-color: #5700B5;
+  color: white;
+  position: relative;
+}
+
+h1 {
+  font-size: 5.25rem;
+  text-align: center;
+  padding: 3.5vw 0 2.75vw 0;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-bottom: .5vw;
+}
+
+nav {
+  height: 8vw;
   background-color: #5700B5;
   color: white;
 }
 
-h1 {
-  font-size: 4.75rem;
-  text-align: center;
-  padding: 6vw 0 2vw 0;
+.navigation {
+  float: left;
+  padding-top: 2.5vw;
+  padding-left: 1vw;
 }
 
-/*h1 {
-  font-size: 4.75rem;
-  text-align: center;
-  padding: 0 0 1.5vw 0;
-}*/
-
-h2 {
-  font-size: 2.75rem;
-  text-align: center;
-}
-
-/*.pages li {
-  display: inline-block;
-}*/
-
-nav a {
+.navigation a {
   color: #FFF;
+  font-size: 2.25rem;
+  text-decoration: none;
+  padding-left: 3vw;
 }
 
-/*.social img {
-  height: 4.5vw;
-  padding: 0vw 3.5vw 0;
+.social {
   float: right;
-  display: inline-block;
-}*/
+}
+
+.social img {
+  height: 6vw;
+  padding: .5vw 4vw 1vw 0;
+}
