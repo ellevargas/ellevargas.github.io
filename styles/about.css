@@ -26,7 +26,7 @@ nav {
   height: 10vh;
   background-color: #5700B5;
   color: white;
-  position: fixed;
+  /*position: fixed;*/
   z-index: 999;
 }
 
@@ -44,13 +44,13 @@ nav a {
   padding: 2vw;
 }
 
-.social a {
-
-}
+/*.social a {
+  float: right;
+}*/
 
 .social img {
   height: 4vw;
-  margin-top: -5vh;
+  margin-top: -4.5vh;
   padding-right: 4vw;
   float: right;
   display: inline-block;
