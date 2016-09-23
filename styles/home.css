@@ -17,20 +17,20 @@ h1 {
   padding: 6vh 0 2vh 0;
 }
 
-/*h2 {
+h2 {
   font-size: 2.25rem;
   text-align: center;
 }
 
-.pages li {
+/*.pages li {
   display: inline-block;
-}
+}*/
 
 nav a {
   color: #FFF;
 }
 
-.social img {
+/*.social img {
   height: 4.5vw;
   padding: 0vw 3.5vw 0;
   float: right;
