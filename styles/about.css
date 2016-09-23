@@ -7,90 +7,104 @@ body {
 header {
   display: inline-block;
   width: 100vw;
-  height: 10vw;
+  height: 5.75vw;
   background-color: #5700B5;
   color: white;
-  z-index: 2000;
-  margin: -4vw 0;
-
+  z-index: 800;
 }
 
 h1 {
-  /*clear: both;*/
-  font-size: 2.5rem;
+  font-size: 4.75rem;
   text-align: center;
-  padding: 0 0 3vw 0;
+  padding: 0 0 1.75vw 0;
+  margin-top: -7vw;
+  z-index: 800;
+  position: relative;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   text-align: center;
+  z-index: 800;
+  position: relative;
 }
 
 nav {
-  height: 5vw;
+  height: 9vw;
   color: white;
-  /*position: fixed;*/
+  fixed: relative;
 }
 
 .navigation {
   position: fixed;
-  width: 30vw;
+  width: 31vw;
   float: left;
   background-color: #5700B5;
-  z-index: 1000;
-  padding: 1.5vw;
+  z-index: 900;
+  padding: 3.5vw 2.5vw;
   height: 2vw;
 }
 
 .navigation a {
-  padding: 2vw;
-  height: 2vw;
+  padding: 1.75vw;
+  font-size: 1.75rem;
   color: #FFF;
   text-decoration: none;
 }
 
-.blank-space {
+.filler-space {
   position: fixed;
-  left: 30vw;
-  width: 40vw;
-  height: 5vw;
+  width: 100vw;
+  height: 9vw;
   background-color: #5700B5;
-  z-index: -1;
+  z-index: 400;
 }
 
 .social {
   position: fixed;
   left: 70vw;
   width: 30vw;
-  height: 5vw;
+  height: 9vw;
   background-color: #5700B5;
-  z-index: 1000;
+  z-index: 900;
 }
 
 .social img {
-  height: 4vw;
-  margin-top: .5vw;
-  padding-right: 4vw;
+  height: 5vw;
+  margin-top: 2vw;
+  margin-right: 4.25vw;
   float: right;
   background-color: #5700B5;
 
 }
 
 .content {
-  padding: 7vw 5vw;
+  font-size: 2rem;
   font-weight: lighter;
-  line-height: 1.5;
-  z-index: -2;
+  line-height: 2;
+  z-index: 100;
+  display: block;
+  float: right;
+}
+
+.content img {
+  border-radius: 50%;
+  float: left;
+  padding: 5vw;
+}
+
+.content p {
+  padding: 3vw 4vw 1.5vw 2vw;
 }
 
 footer {
+  position: relative;
   clear: both;
-  height: 10vw;
   text-align: center;
 }
 
 footer p {
   font-size: .75rem;
   font-weight: lighter;
+  padding-top: 4vw;
 }
