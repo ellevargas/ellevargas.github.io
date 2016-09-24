@@ -83,7 +83,6 @@ nav {
   line-height: 2;
   z-index: 100;
   display: block;
-  float: right;
 }
 
 .content img {
@@ -93,7 +92,7 @@ nav {
 }
 
 .content p {
-  padding: 3vw 4vw 1.5vw 2vw;
+  padding: 4vw 6vw 1.5vw 4.5vw;
 }
 
 footer {
