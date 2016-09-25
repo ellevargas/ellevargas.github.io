@@ -89,6 +89,11 @@ nav {
   transform: scale(1.2) translateX(-.5vw);
 }
 
+.social a:hover, .social a:focus {
+  transition: all .3s ease-in-out;
+  transform: scale(1.2) translateX(-.5vw);
+}
+
 .content {
   font-size: 2rem;
   font-weight: lighter;
