@@ -46,14 +46,17 @@ nav {
 }
 
 .navigation a {
-  padding: 1.75vw;
+  margin-left: 1.75vw;
+  padding: 1vw;
   font-size: 1.75rem;
   color: #FFF;
   text-decoration: none;
 }
 
-.navigation a:hover {
-  text-decoration: underline;
+.navigation a:hover, .navigation a:focus {
+  background-color: white;
+  color: #5700B5;
+  transition: all .3s ease-in-out;
 }
 
 .filler-space {
@@ -81,6 +84,11 @@ nav {
   background-color: #5700B5;
 }
 
+.social img:hover, .social img:focus {
+  transition: all .3s ease-in-out;
+  transform: scale(1.2) translateX(-.5vw);
+}
+
 .content {
   font-size: 2rem;
   font-weight: lighter;
@@ -105,7 +113,7 @@ nav {
   text-decoration: none;
 }
 
-.content a:hover {
+.content a:hover, .content a:focus {
   text-decoration: underline;
 }
 
