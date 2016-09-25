@@ -1,0 +1,25 @@
+.article-titles {
+  text-align: center;
+  padding-top: 5vw;
+  margin-bottom: -2vw;
+}
+
+.article-titles a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.content p {
+  text-align: left;
+}
+
+.content p::first-line {
+  color: #5700B5;
+  font-weight: bold;
+}
+
+.post-borders {
+  border-top: #5700B5 .5vw;
+  border-style: double;
+}

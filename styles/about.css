@@ -86,9 +86,10 @@ nav {
 }
 
 .content img {
+  object-fit: cover;
   border-radius: 50%;
   float: left;
-  padding: 7vw 5vw 5vw 5vw;
+  padding: 6vw 5vw 1vw 5vw;
 }
 
 .content p {
@@ -104,5 +105,5 @@ footer {
 footer p {
   font-size: .75rem;
   font-weight: lighter;
-  padding-top: 3vw;
+  padding-top: 4vw;
 }

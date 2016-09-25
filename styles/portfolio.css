@@ -5,6 +5,7 @@
   border-radius: 50%;
   display: inline-block;
   clear: both;
+  overflow: hidden;
 }
 
 .content p {
@@ -13,13 +14,14 @@
 
 .project-titles {
   text-align: center;
-  padding-top: 10vw;
+  padding-top: 8vw;
   margin-bottom: -2vw;
 }
 
 .project-titles a {
   text-decoration: none;
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 footer p {
