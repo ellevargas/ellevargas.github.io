@@ -45,6 +45,10 @@ nav {
   padding-left: 3vw;
 }
 
+.navigation a:hover {
+  text-decoration: underline;
+}
+
 .social {
   float: right;
 }

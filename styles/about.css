@@ -52,6 +52,10 @@ nav {
   text-decoration: none;
 }
 
+.navigation a:hover {
+  text-decoration: underline;
+}
+
 .filler-space {
   position: fixed;
   width: 100vw;
@@ -89,11 +93,24 @@ nav {
   object-fit: cover;
   border-radius: 50%;
   float: left;
-  padding: 6vw 5vw 1vw 5vw;
+  padding: 6.5vw 5vw 1vw 5vw;
 }
 
 .content p {
   padding: 4vw 6vw 1.5vw 4.5vw;
+}
+
+.content a {
+  color: #5700B5;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content a:visited {
+  color: #7B3AC1;
 }
 
 footer {
@@ -105,5 +122,5 @@ footer {
 footer p {
   font-size: .75rem;
   font-weight: lighter;
-  padding-top: 4vw;
+  padding-top: 8vw;
 }
